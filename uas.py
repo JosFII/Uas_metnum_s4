@@ -54,7 +54,7 @@ dT/dt=-k*(T-Ts)
 st.write('''T(t)= suhu objek pada waktu t \n
 Ts= suhu lingkungan \n
 k=konstan''')
-st.markdown("equation yang diguanak adalah newton's law of cooling yang berbunyi panas yang hilang proporsional dengan perbedaan suhu")
+st.markdown("equation yang digunakan adalah newton's law of cooling yang berbunyi panas yang hilang proporsional dengan perbedaan suhu")
 # Solve the ODE
 t, T = runge_kutta(f, T0, t_final, h)
 st.markdown('''
